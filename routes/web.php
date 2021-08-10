@@ -21,4 +21,11 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
-require __DIR__.'/auth.php';
+
+Route::middleware(['auth'])->group(function () {
+    Route::get('/crud-generatory', function () {
+        return view('crud-generator');
+    })->name('crud-generator');
+});
+
+require __DIR__ . '/auth.php';
