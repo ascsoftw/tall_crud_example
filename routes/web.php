@@ -23,9 +23,13 @@ Route::get('/dashboard', function () {
 
 
 Route::middleware(['auth'])->group(function () {
-    Route::get('/crud-generatory', function () {
+    Route::get('/crud-generator', function () {
         return view('crud-generator');
     })->name('crud-generator');
+
+    Route::get('/simple-pagination', function () {
+        return view('simple-pagination');
+    })->name('simple-pagination');
 });
 
 require __DIR__ . '/auth.php';
