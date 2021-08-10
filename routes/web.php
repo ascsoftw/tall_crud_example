@@ -30,6 +30,10 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/simple-pagination', function () {
         return view('simple-pagination');
     })->name('simple-pagination');
+
+    Route::get('/eager-load-count', function () {
+        return view('eager-load-count');
+    })->name('eager-load-count');
 });
 
 require __DIR__ . '/auth.php';
