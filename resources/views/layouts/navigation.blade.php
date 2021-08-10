@@ -21,6 +21,9 @@
                     <x-nav-link :href="route('eager-load-count')" :active="request()->routeIs('eager-load-count')">
                         {{ __('Eager Load Count') }}
                     </x-nav-link>
+                    <x-nav-link :href="route('eager-load')" :active="request()->routeIs('eager-load')">
+                        {{ __('Eager Load') }}
+                    </x-nav-link>
                     <x-nav-link :href="route('crud-generator')" :active="request()->routeIs('crud-generator')">
                         {{ __('Crud Generator') }}
                     </x-nav-link>
@@ -80,6 +83,9 @@
             </x-responsive-nav-link>
             <x-responsive-nav-link :href="route('eager-load-count')" :active="request()->routeIs('eager-load-count')">
                 {{ __('Eager Load Count') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('eager-load')" :active="request()->routeIs('eager-load')">
+                {{ __('Eager Load') }}
             </x-responsive-nav-link>
             <x-responsive-nav-link :href="route('crud-generator')" :active="request()->routeIs('crud-generator')">
                 {{ __('Crud Generator') }}

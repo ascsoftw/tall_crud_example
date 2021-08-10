@@ -34,6 +34,10 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/eager-load-count', function () {
         return view('eager-load-count');
     })->name('eager-load-count');
+
+    Route::get('/eager-load', function () {
+        return view('eager-load');
+    })->name('eager-load');
 });
 
 require __DIR__ . '/auth.php';
