@@ -38,6 +38,10 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/eager-load', function () {
         return view('eager-load');
     })->name('eager-load');
+
+    Route::get('/delete-modal', function () {
+        return view('delete-modal');
+    })->name('delete-modal');
 });
 
 require __DIR__ . '/auth.php';
