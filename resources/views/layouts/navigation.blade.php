@@ -27,6 +27,9 @@
                     <x-nav-link :href="route('delete-modal')" :active="request()->routeIs('delete-modal')">
                         {{ __('Delete Modal') }}
                     </x-nav-link>
+                    <x-nav-link :href="route('add-edit-form')" :active="request()->routeIs('add-edit-form')">
+                        {{ __('Add Edit Form') }}
+                    </x-nav-link>
                     <x-nav-link :href="route('crud-generator')" :active="request()->routeIs('crud-generator')">
                         {{ __('Crud Generator') }}
                     </x-nav-link>
@@ -92,6 +95,9 @@
             </x-responsive-nav-link>
             <x-responsive-nav-link :href="route('delete-modal')" :active="request()->routeIs('delete-modal')">
                 {{ __('Delete Modal') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('add-edit-form')" :active="request()->routeIs('add-edit-form')">
+                {{ __('Add Edit Form') }}
             </x-responsive-nav-link>
             <x-responsive-nav-link :href="route('crud-generator')" :active="request()->routeIs('crud-generator')">
                 {{ __('Crud Generator') }}
