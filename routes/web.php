@@ -46,6 +46,10 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/add-edit-form', function () {
         return view('add-edit-form');
     })->name('add-edit-form');
+
+    Route::get('/belongs-to-many-form', function () {
+        return view('belongs-to-many-form');
+    })->name('belongs-to-many-form');
 });
 
 require __DIR__ . '/auth.php';
