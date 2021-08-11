@@ -9,7 +9,9 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 bg-white border-b border-gray-200">
-                    <p class="color:black mb-6">We display the Listing of Products along with the Option to Add and Edit, which opens up the Form in a Modal.</p>
+                    <p class="color:black mb-6">We display the Listing of Products along with the Option to Add and Edit, which opens up the Form in a Modal. <br />
+                    The Example also show how to update a Belongs To Field. If you are interested in checking how to create a Form with Belongs To Many Relation check this <a href="{{route('belongs-to-many-form')}}" class="cursor-pointer text-blue-500">example</a>.
+                    </p>
                     @livewire('products')
                 </div>
             </div>
