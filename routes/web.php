@@ -42,6 +42,10 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/delete-modal', function () {
         return view('delete-modal');
     })->name('delete-modal');
+
+    Route::get('/add-edit-form', function () {
+        return view('add-edit-form');
+    })->name('add-edit-form');
 });
 
 require __DIR__ . '/auth.php';
