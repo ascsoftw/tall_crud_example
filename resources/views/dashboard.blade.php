@@ -50,6 +50,11 @@
                     <p class="mt-4">
                         The Package also allows you to change the Text of Various Buttons. You can do this from the Step 6 of the Package Config Page. You can check this Video on <a href="https://youtu.be/SrTIb3E9Tl4" class="cursor-pointer text-blue-500">Youtube</a> which shows this feature.</a>
                     </p> 
+
+                    <h3 class="mt-4 text-lg font-bold">Flash Messages</h3>
+                    <p class="mt-4">
+                        The Package also allows you to enable or disable Flash Messages as well as modify the Text of Flash Messages. You can do this from the Step 6 of the Package Config Page. You can check this Video on <a href="https://youtu.be/Vjs6qmnheAk" class="cursor-pointer text-blue-500">Youtube</a> which shows this feature.</a>
+                    </p> 
                 </div>
             </div>
         </div>
