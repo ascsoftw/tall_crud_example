@@ -46,6 +46,10 @@
                         This is similar to the above Add Edit Form. Howerver, this also shows how to Add / Edit a BelongsToMany Field.
                     </p>
 
+                    <h3 class="mt-4 text-lg font-bold">Button Text</h3>
+                    <p class="mt-4">
+                        The Package also allows you to change the Text of Various Buttons. You can do this from the Step 6 of the Package Config Page. You can check this Video on <a href="https://youtu.be/SrTIb3E9Tl4" class="cursor-pointer text-blue-500">Youtube</a> which shows this feature.</a>
+                    </p> 
                 </div>
             </div>
         </div>

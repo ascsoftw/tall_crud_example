@@ -16,6 +16,7 @@
 
                     <p class="mt-4">You can generate a similar Component by Selecting the Appropriate Settings at <a href="{{route('crud-generator')}}" class="cursor-pointer text-blue-500">Crud Generator Menu</a>.</p>
 
+                    <p class="my-4">If you are interested in the Video Tutorial, you can check this Video which generates the following Livewire Component on <a href="https://youtu.be/_bTOVkbJtuM" class="cursor-pointer text-blue-500">Youtube</a>.</p>
 
                     @livewire('belongs-to-many')
                 </div>
